@@ -1,5 +1,6 @@
 # Headphones Website Project
 
+![image](https://github.com/user-attachments/assets/3fe0a7f8-4e5a-403a-a801-d2b18eb93217)
 
 ## General  💻
 
@@ -36,7 +37,7 @@ Unlike usual projects, the tasks in this project are less detailed. The instruct
 ### Usage 👨‍💻
 Open the HTML files to view different stages of the project:
     
-    - `0-index.html`: Header only
+    - `0-index.html`: Header + hero section
     - `1-index.html`: Header + "What we do" section
     - `2-index.html`: Previous sections + "Our results"
     - `3-index.html`: Previous sections + Contact form
@@ -44,7 +45,7 @@ Open the HTML files to view different stages of the project:
 
 ### To go further : advanced tasks 🐐
 
-	- `100-index.html`: Draw each pentagon using HTML & CSS instead of images.
+    - `100-index.html`: Draw each pentagon using HTML & CSS instead of images.
     - `101-index.html`: Add fun animation to the "What we do" and "Our results" sections (example : Scaling, opacity, rotation, bouncing)
     - `102-styles.scss`: Create a SASS version of the file `101-styles.css`
 
@@ -57,5 +58,5 @@ Desktop Version (photo)
 Mobile Version (photo)
 
 ### Authors :
-Sarah Boutier, Web developer student
-Figma designed By Nicolas Philippot, UI/UX designer
+- Sarah Boutier, Web developer student
+- Figma designed By Nicolas Philippot, UI/UX designer
