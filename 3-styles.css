@@ -424,4 +424,8 @@ nav ul li:hover {
     .our-results-item p {
         font-size: 12px;
     }
+
+    .section-contact-us {
+        padding: 50px;
+    }
 }
