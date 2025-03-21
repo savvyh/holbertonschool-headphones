@@ -257,6 +257,15 @@ nav ul li:hover {
     }
 
     .what-we-do-item {
-        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .what-we-do-item > div {
+        flex: 0 0 auto;
+        width: 90%;
+        max-width: none;
+        margin-bottom: 30px;
     }
 }
