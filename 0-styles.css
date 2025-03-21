@@ -121,10 +121,6 @@ nav ul li:hover {
 }
   
 @media screen and (max-width: 468px) {
-    .menu-toggle {
-        display: none;
-    }
-
     header {
         padding: 50px;
         display: flex;
@@ -154,7 +150,7 @@ nav ul li:hover {
         display: none;
     }
 
-    .menu-toggle:checked + .hamburger-menu + nav {
+    .hamburger-menu + nav {
         display: block;
         position: absolute;
         top: 60px;
@@ -176,7 +172,6 @@ nav ul li:hover {
 
     .hero-section {
         margin-top: 0;
-        padding: 0 20px;
         text-align: center;
     }
 
@@ -193,6 +188,7 @@ nav ul li:hover {
         width: 140px;
         height: 40px;
         font-size: 12px;
-        margin: 20px 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
