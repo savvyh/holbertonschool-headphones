@@ -126,6 +126,7 @@ nav ul li:hover {
 .section-what-we-do {
     text-align: center;
     background-color: white;
+    padding: 0 0 100px 0;
 }
 
 .section-what-we-do h1 {
@@ -150,18 +151,18 @@ nav ul li:hover {
 
 .what-we-do-item {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 60px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     max-width: 1000px;
     margin: 0 auto;
+    gap: 20px;
 }
 
 .what-we-do-item > div {
-    flex: 1 1 40%;
-    min-width: 210px;
-    max-width: 300px;
-    margin-bottom: 40px;
+    flex: 1;
+    min-width: 0;
+    max-width: 200px;
+    margin-bottom: 20px;
 }
 
 .what-we-do-item .holberton-icon {
