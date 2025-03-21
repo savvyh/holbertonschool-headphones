@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'holberton_school-icon';
+    src:  url('fonts/holberton_school-icon.eot?#iefix') format('embedded-opentype'),
+          url('fonts/holberton_school-icon.woff') format('woff'),
+          url('fonts/holberton_school-icon.ttf') format('truetype'),
+          url('fonts/holberton_school-icon.svg#holberton_school-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.holberton-icon {
+    font-family: 'holberton_school-icon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-hero-container {
+    background-image: url('./images/headphones_hero_1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 41px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+  
+nav ul li {
+    list-style-type: none;
+    color: white;
+}
+
+nav ul li:hover {
+    color: #FF6565;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/*Hero Section*/
+
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: white;
+}
+  
+  
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.hero-title h1 {
+    font-size: 32px;
+    margin-bottom: 9px;
+}
+  
+.hero-title p {
+    font-size: 16px;
+}
+  
+.hero-button {
+    background-color: #FF6565;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 22px;
+    font-size: 14px;
+    width: 162px;
+    height: 44px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+  
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 55%;
+}
+  
+.hero-text p {
+    font-size : 16px;
+}
+
+/*What We Do Section*/
+.section-what-we-do {
+    text-align: center;
+    background-color: white;
+}
+
+.section-what-we-do h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #071629;
+}
+
+.section-what-we-do > p {
+    margin: 0 auto;
+    max-width: 65%;
+    color: #071629;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+
+.what-we-do-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.what-we-do-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.what-we-do-item > div {
+    flex: 1 1 40%;
+    min-width: 210px;
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+
+.what-we-do-item .holberton-icon {
+    font-size: 80px;
+    color: #FF6565;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.what-we-do-item h3 {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #071629;
+}
+
+.what-we-do-item p {
+    font-size: 14px;
+    color: #071629;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 468px) {
+    header {
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        left: 20px;
+    }
+
+    .logo {
+        width: 120px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hamburger-menu + nav {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+    }
+
+
+    nav ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero-section {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .hero-title h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .hero-title p, .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-button {
+        width: 140px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .what-we-do-item {
+        gap: 10px;
+    }
+}
